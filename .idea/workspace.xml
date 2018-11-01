@@ -2,44 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="faea0816-69d9-477c-9347-c8a765c82a78" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webResources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/ApiClient.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/FactoryModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/constants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/modules/WeatherApi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SearchForm/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Spinner/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Spinner/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TableWeather/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TableWeather/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/App/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/CommonModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/WeatherModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/create.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/middleware/clientMiddleware.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/modules/weather.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -99,7 +63,7 @@
           <entry key="css" value="155" />
           <entry key="env" value="15" />
           <entry key="eslintrc" value="11" />
-          <entry key="gitignore" value="1" />
+          <entry key="gitignore" value="3" />
           <entry key="html" value="30" />
           <entry key="js" value="5212" />
           <entry key="json" value="93" />
@@ -111,7 +75,7 @@
           <entry key="HTML" value="30" />
           <entry key="JSON" value="104" />
           <entry key="JavaScript" value="5212" />
-          <entry key="PLAIN_TEXT" value="16" />
+          <entry key="PLAIN_TEXT" value="18" />
         </counts>
       </usages-collector>
     </session>
@@ -188,8 +152,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+            <state relative-caret-position="408">
+              <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -388,12 +352,12 @@
       <workItem from="1540209069123" duration="8381000" />
       <workItem from="1540284606789" duration="149000" />
       <workItem from="1540302372423" duration="4193000" />
-      <workItem from="1540319768613" duration="70928000" />
+      <workItem from="1540319768613" duration="71410000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83651000" />
+    <option name="totallyTimeSpent" value="84133000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -660,8 +624,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        <state relative-caret-position="408">
+          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
         </state>
       </provider>
     </entry>
