@@ -1,0 +1,5 @@
+{
+  "apiDomain": "http://api.openweathermap.org/",
+  "apiPath": "data/2.5",
+  "apiKey": "ce66bace02474aa0bfa81120dc5c303c"
+}
