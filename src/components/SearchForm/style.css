@@ -1,0 +1,24 @@
+.search {
+  text-align: center;
+}
+
+.search__input {
+  display: inline-block;
+
+  height: 30px;
+  width: 300px;
+
+  font-size: 16px;
+}
+
+.search__button {
+  padding: 8px;
+  margin-left: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.search__error {
+  margin: 0;
+  color: red;
+}

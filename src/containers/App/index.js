@@ -4,6 +4,7 @@ import { SearchForm } from 'components/SearchForm';
 import { TableWeather } from 'components/TableWeather';
 import { Spinner } from 'components/Spinner';
 import { loadCityWeather } from 'redux/modules/weather';
+import './style.css';
 
 function mapStateToProps(state) {
   return {
@@ -23,7 +24,8 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div className="app">
+        <h1 className="app__title">Find out the weather</h1>
         <SearchForm submit={this.props.loadCityWeather} error={this.props.errorWeatherLoad} />
         <Spinner request={this.props.requestWeatherLoad}>
           <TableWeather list={this.props.weatherList} />

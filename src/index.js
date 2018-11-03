@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import createStore from 'redux/create';
 import { Provider } from 'react-redux';
 import App from 'containers/App';
-import 'index.css';
+import './style.css';
 
 const initialState = {};
 const store = createStore(initialState);

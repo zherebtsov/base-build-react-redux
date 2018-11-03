@@ -22,6 +22,6 @@ export class WeatherModel extends CommonModel{
   }
 
   convertTempKelvinsToCelsius = (tempKelvins) => {
-    return tempKelvins - 273.15
+    return Math.round((tempKelvins - 273.15) * 100) / 100;
   }
 }

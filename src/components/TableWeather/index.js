@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import './style.css';
 import PropTypes from 'prop-types';
 import { WeatherModel } from 'models/WeatherModel';
 import { Utils } from 'utils';
+import './style.css';
 
 export class TableWeather extends Component {
 
@@ -13,7 +13,7 @@ export class TableWeather extends Component {
   renderRow = (list) => {
     if (Utils.isEmptyArray(list)) {
       return (
-        <tr><td colSpan="5" className="text-align_center">Нет данных</td></tr>
+        <tr><td colSpan="5" className="text-align_center">No data</td></tr>
       );
     }
     return list.map((item, index) => {
@@ -21,9 +21,9 @@ export class TableWeather extends Component {
         <tr key={`${index}_${item.cityName}`}>
           <td>{item.cityName}</td>
           <td>{item.country}</td>
-          <td>{item.temp}</td>
-          <td>{item.pressure}</td>
-          <td>{item.humidity}</td>
+          <td>{item.temp} °C</td>
+          <td>{item.pressure} hpa</td>
+          <td>{item.humidity} %</td>
         </tr>
       );
     })
@@ -31,14 +31,14 @@ export class TableWeather extends Component {
 
   render() {
     return (
-      <table className="table-weather" cellSpacing="0">
+      <table className="app__table table-weather" cellSpacing="0">
         <thead>
           <tr>
-            <th>Город</th>
-            <th>Страна</th>
-            <th>Температура</th>
-            <th>Влажность</th>
-            <th>Давление</th>
+            <th>City</th>
+            <th>Country</th>
+            <th>Temperature</th>
+            <th>Pressure</th>
+            <th>Humidity</th>
           </tr>
         </thead>
         <tbody>
